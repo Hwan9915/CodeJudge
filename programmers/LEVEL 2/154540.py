@@ -5,6 +5,7 @@ def solution(maps):
     # str -> list
     maps_list = [list(s) for s in maps]
 
+
     answer = []
     deq = deque()
     n = len(maps_list)
