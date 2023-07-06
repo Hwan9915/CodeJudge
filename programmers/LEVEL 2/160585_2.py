@@ -62,6 +62,5 @@ def solution(board):
     if tic_x == 1 and (cnt_o > cnt_x):
         return 0
 
-
     answer = 1
     return answer
