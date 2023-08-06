@@ -10,4 +10,4 @@ def solution(order):
             container.pop()
         idx += 1
 
-    return cnt자
+    return cnt
