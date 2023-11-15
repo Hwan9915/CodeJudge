@@ -15,4 +15,5 @@ for _ in range(N):
     for i in range(K, w - 1, -1):
         cache[i] = max(cache[i], v + cache[i - w])
 
+
 print(cache[-1])
