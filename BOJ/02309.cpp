@@ -33,6 +33,6 @@ int main()
   for(int l=0;l<9;l++)
   {
     if(i==l or j==l) continue;
-    else cout<<K[l]<<"\n";
+    else cout<<K[l]<<"";
   }
 }

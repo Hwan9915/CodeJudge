@@ -11,10 +11,10 @@ def main():
         b_sorted = sorted(b)
 
         if a_sorted == b_sorted:
-            print(f"{''.join(a)} & {''.join(b)} are anagrams.\n")
+            print(f"{''.join(a)} & {''.join(b)} are anagrams.")
 
         else:
-            print(f"{''.join(a)} & {''.join(b)} are NOT anagrams.\n")
+            print(f"{''.join(a)} & {''.join(b)} are NOT anagrams.")
 
 if __name__ == '__main__':
     input = sys.stdin.readline
