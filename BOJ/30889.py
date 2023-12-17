@@ -17,7 +17,7 @@ def main():
     for i in range(10):
         for j in range(1,21):
             print(matrix[i][j])
-        print("\n")
+        print("")
 
 if __name__ == "__main__":
     input = sys.stdin.readline
