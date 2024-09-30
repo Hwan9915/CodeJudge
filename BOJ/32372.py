@@ -44,5 +44,6 @@ def main():
         lst = new_lst
     print(lst[0][0], lst[0][1])
 
+
 if __name__ == "__main__":
     main()
